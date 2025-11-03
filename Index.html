@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Home Control Panel (Arduino Simulation)</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Smart Home Control Panel</h1>
+    <p>Arduino Simulation Dashboard</p>
+  </header>
+
+  <main>
+    <section class="devices">
+      <h2>Device Controls</h2>
+      <div class="device-grid">
+
+        <div class="device-card" id="led-card">
+          <div class="icon">
+            💡
+          </div>
+          <h3>LED Light</h3>
+          <p>Status: <span id="led-status" class="status red">OFF</span></p>
+          <button onclick="toggleDevice('led')">Toggle</button>
+        </div>
+
+        <div class="device-card" id="fan-card">
+          <div class="icon fan-icon">
+            🌀
+          </div>
+          <h3>Fan</h3>
+          <p>Status: <span id="fan-status" class="status red">OFF</span></p>
+          <button onclick="toggleDevice('fan')">Toggle</button>
+        </div>
+
+        <div class="device-card" id="motor-card">
+          <div class="icon">
+            ⚙️
+          </div>
+          <h3>Motor</h3>
+          <p>Status: <span id="motor-status" class="status red">OFF</span></p>
+          <button onclick="toggleDevice('motor')">Toggle</button>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="sensors">
+      <h2>Sensor Data</h2>
+      <div class="sensor-grid">
+        <div class="sensor-card">
+          <h3>Temperature</h3>
+          <p id="temp" class="sensor-value">-- °C</p>
+        </div>
+        <div class="sensor-card">
+          <h3>Humidity</h3>
+          <p id="hum" class="sensor-value">-- %</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Developed by Md Zulquarnain Ansari | Arduino Simulation Project</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
