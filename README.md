@@ -34,7 +34,7 @@ A simple **Smart Home Dashboard** that allows you to control appliances (LED, Fa
 ### 💻 2. Web Dashboard
 1. Open `index.html` in any browser, or  
 2. Visit the live version hosted on **GitHub Pages**:  
-   👉 [https://mdzulquar102-netizen.github.io/smart-home-dashboard/](https://mdzulquar102-netizen.github.io/smart-home-dashboard/)  
+   👉 (https://mdzulquar102-netizen.github.io/smart-home-dashboard/)  
     
 
 ---
