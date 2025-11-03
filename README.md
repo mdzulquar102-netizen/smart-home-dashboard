@@ -35,7 +35,7 @@ A simple **Smart Home Dashboard** that allows you to control appliances (LED, Fa
 1. Open `index.html` in any browser, or  
 2. Visit the live version hosted on **GitHub Pages**:  
    👉 [https://mdzulquar102-netizen.github.io/smart-home-dashboard/](https://mdzulquar102-netizen.github.io/smart-home-dashboard/)  
-   *(replace YOURUSERNAME with your GitHub ID)*  
+    
 
 ---
 
@@ -44,12 +44,6 @@ A simple **Smart Home Dashboard** that allows you to control appliances (LED, Fa
 - When you click “LED ON/OFF” or “Fan ON/OFF”, it sends signals to the Arduino.  
 - Arduino reads those signals and triggers corresponding pins.  
 - The dashboard fetches temperature and humidity from Arduino serial output in real time.
-
----
-
-## 📸 Screenshots
-(Add screenshots here once your dashboard is live)  
-Example:
 
 ---
 
